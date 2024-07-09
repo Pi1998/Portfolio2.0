@@ -1,4 +1,4 @@
-/* 
+/*
 //////////////////////////
 General
 //////////////////////////
@@ -9,19 +9,19 @@ General
   box-sizing: border-box;
 }
 
-:root{
-  --primary-color:#FFFFFF;
-  --secondary-color:#1A2236;
-  --tertiary-color: #98DEDE;
-  --quaternary-color: #000000;
+:root {
+  --primary-color: #fff;
+  --secondary-color: #1a2236;
+  --tertiary-color: #98dede;
+  --quaternary-color: #000;
 }
 
-/* 
+/*
 ///////////////////////////
 Typography
 ///////////////////////////
 */
-.h-font{
+.h-font {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 50px;
@@ -29,6 +29,7 @@ Typography
   line-height: 50px;
   margin-bottom: 8%;
 }
+
 .p-font {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -36,40 +37,40 @@ Typography
   color: var(--secondary-color);
 }
 
-/* 
+/*
 ////////////
 Shapes
 ////////////
 */
-.shape1{
+.shape1 {
   width: 111px;
   height: 74px;
 }
 
-.shape2 img{
+.shape2 img {
   width: 100%;
   margin-bottom: 10%;
 }
 
-/* 
+/*
 //////////
 Navigation
 //////////
 */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menubar{
+.menubar {
   margin-right: 3%;
   margin-bottom: 4%;
   background-color: transparent;
   border: none;
 }
 
-/* 
+/*
 ///////////
 Header Intro
 ///////////
@@ -80,7 +81,7 @@ Header Intro
   margin: 6% 4%;
 }
 
-.btn-collab{
+.btn-collab {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border: none;
@@ -88,35 +89,36 @@ Header Intro
   margin: 20px 0;
 }
 
-/* 
+/*
 /////////
 Main Projects
 /////////
 */
-main{
+main {
   display: flex;
   flex-direction: column;
   margin: 6% 0;
 }
 
-.prj-section{
+.prj-section {
   display: flex;
   flex-direction: column;
 }
 
-.prj{
+.prj {
   display: flex;
   flex-direction: column;
+
   /* align-items: center; */
   justify-content: center;
   background-color: var(--secondary-color);
 }
 
-.prj-text-container{
+.prj-text-container {
   padding: 5% 3%;
 }
 
-.prj-name{
+.prj-name {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -124,7 +126,7 @@ main{
   margin-bottom: 4%;
 }
 
-.prj-lang-list{
+.prj-lang-list {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -133,16 +135,16 @@ main{
   column-gap: 5%;
 }
 
-.prj-lang-list li{
+.prj-lang-list li {
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 10.33px;
   font-weight: 300;
   padding: 1% 3%;
 }
 
-.prj-btn{
+.prj-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
