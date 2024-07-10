@@ -129,10 +129,10 @@
       </section>
     </main>
     <section class="abt-section">
-      <h1>
+      <h1 class="h-font">
         About
       </h1>
-      <p>
+      <p class="p-font">
         I can help you build a product , 
         feature or website Look through some of my work and experience! 
         If you like what you see and have a project you need coded, 
@@ -140,10 +140,11 @@
       </p>
       <button class="get-cv-btn">
         Get my CV
+        <img src="/Assets/Shapes/Download.png" alt="Download button Icon">
       </button>
     </section>
     <section class="exp-section">
-      <div class="exp-lang">
+      <div class="exp-container exp1">
         <h2>Languages</h2>
         <ul>
           <li>JavaScript(ES5/ES6)</li>
@@ -151,9 +152,8 @@
           <li>HTML</li>
           <li>CSS</li>
         </ul>
-        <img src="/Assets/Shapes/Hash.png" alt="">
       </div>
-      <div class="exp-frame">
+      <div class="exp-container exp2">
         <h2>Frameworks</h2>
         <ul>
           <li>React.js</li>
@@ -161,9 +161,8 @@
           <li>RSpec</li>
           <li>Capibara</li>
         </ul>
-        <img src="/Assets/Shapes/Square.png" alt="">
       </div>
-      <div class="exp-skill">
+      <div class="exp-container exp3">
         <h2>Skills</h2>
         <ul>
           <li>Database Management</li>
@@ -172,33 +171,35 @@
           <li>Version Control</li>
           <li>Web Development</li>
         </ul>
-        <img src="/Assets/Shapes/Bulb.png" alt="">
       </div>
     </section>
     <section class="form-section">
-      <img src="/Assets/Shapes/Shape1.png" alt="">
-      <h1>Get Started</h1>
-      <p>I'm always interested in hearing about new projects, 
-        so if you'd like to chat please get in touch.
-      </p>
-      <form action="submit">
-        <label for="name">Your name</label>
-        <input type="text" name="name" class="name" placeholder="Your name" />
+      <img src="/Assets/Shapes/Shape1.png" class="shape1" alt="background geometry image">
+      <div class="form-container">
+        <h1 class="h-font">Get Started</h1>
+        <p class="p-font">I'm always interested in hearing about new projects, 
+          so if you'd like to chat please get in touch.
+        </p>
+        <form action="submit">
+          <label for="name">Your name</label>
+          <input type="text" name="name" class="name" placeholder="" />
 
-        <label for="email">Your email</label>
-        <input type="email" name="email" class="email" placeholder="Your email" />
+          <label for="email">Your email</label>
+          <input type="email" name="email" class="email" placeholder="" />
 
-        <label for="message"></label>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
 
-        <button class="form-btn">
-          Start Collaboration
-        </button>
-      </form>
+          <button class="form-btn">
+            Start Collaboration
+          </button>
+        </form>
+      </div>
     </section>
     <footer>
       <button class="get-resume-btn">
         Get my Resume
+        <img src="/Assets/Shapes/Link.png" alt="">
       </button>
       <ul class="soc-icons">
         <li><img src="/Assets/soc-icons/ic_stackoverflow.png" alt=""></li>
