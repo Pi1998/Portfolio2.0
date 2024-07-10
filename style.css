@@ -14,11 +14,11 @@ General
   --secondary-color: #1a2236;
   --tertiary-color: #98dede;
   --quaternary-color: #000;
-  --square1: #1C528A;
-  --square2: #E2505C;
-  --square3: #FEBF52;
-  --form-text: #7D7C84;
-  --form-bg: #F9F9FA;
+  --square1: #1c528a;
+  --square2: #e2505c;
+  --square3: #febf52;
+  --form-text: #7d7c84;
+  --form-bg: #f9f9fa;
 }
 
 /*
@@ -163,18 +163,18 @@ main {
   border: 1px solid var(--primary-color);
 }
 
-/* 
+/*
 /////////////
 About section
 /////////////
 */
-.abt-section{
+.abt-section {
   display: flex;
   flex-direction: column;
   margin: 6% 4%;
 }
 
-.get-cv-btn{
+.get-cv-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -190,18 +190,18 @@ About section
   border: none;
 }
 
-/* 
+/*
 //////////////////
 Experience Section
 //////////////////
 */
-.exp-section{
+.exp-section {
   display: flex;
   flex-direction: column;
   margin: 6% 4%;
 }
 
-.exp-container{
+.exp-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -217,22 +217,22 @@ Experience Section
   background-position-y: bottom;
 }
 
-.exp1{
+.exp1 {
   background-color: var(--square1);
   background-image: url(/Assets/Shapes/Hash.png);
 }
 
-.exp2{
+.exp2 {
   background-color: var(--square2);
   background-image: url(/Assets/Shapes/Square.png);
 }
 
-.exp3{
+.exp3 {
   background-color: var(--square3);
   background-image: url(/Assets/Shapes/Bulb.png);
 }
 
-.exp-container h2{
+.exp-container h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 20px;
@@ -240,14 +240,14 @@ Experience Section
   margin-bottom: 10%;
 }
 
-.exp-container ul{
+.exp-container ul {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 5px;
 }
 
-.exp-container ul li{
+.exp-container ul li {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -255,34 +255,34 @@ Experience Section
   margin-left: 6%;
 }
 
-/* 
+/*
 //////////////
 Form Section
 //////////////
 */
-.form-section{
+.form-section {
   display: flex;
   flex-direction: column;
   background-color: var(--form-bg);
 }
 
-.form-container{
+.form-container {
   display: flex;
   flex-direction: column;
   margin: 6% 4%;
   background-color: var(--form-bg);
 }
 
-.form-section form{
+.form-section form {
   display: flex;
   flex-direction: column;
 }
 
-.form-section h1{
+.form-section h1 {
   margin-top: 10%;
 }
 
-.form-section form label{
+.form-section form label {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 10px;
@@ -290,29 +290,30 @@ Form Section
 }
 
 .form-section form input,
-.form-section form textarea{
+.form-section form textarea {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: var(--secondary-color);
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   margin-bottom: 4%;
 }
 
-.form-section form textarea{
+.form-section form textarea {
   padding: 5% 3% 5% 3%;
   max-height: 112px;
   max-width: 352.5px;
 }
 
 .name,
-.email{
+.email {
   padding: 5% 3% 0 3%;
   min-height: 52px;
-  max-width: 352.5px;}
+  max-width: 352.5px;
+}
 
-.form-btn{
+.form-btn {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -324,12 +325,12 @@ Form Section
   border: none;
 }
 
-/* 
+/*
 /////////////////
 Footer
 /////////////////
 */
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -337,7 +338,7 @@ footer{
   background-color: var(--secondary-color);
 }
 
-.get-resume-btn{
+.get-resume-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -353,7 +354,7 @@ footer{
   margin-top: 12%;
 }
 
-.soc-icons{
+.soc-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
